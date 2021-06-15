@@ -7,6 +7,7 @@ import { ell } from "./languages/ell";
 import { fas } from "./languages/fas";
 import { fra } from "./languages/fra";
 import { grc } from "./languages/grc";
+import { gle } from "./languages/gle";
 import { hun } from "./languages/hun";
 import { hye } from "./languages/hye";
 import { jav } from "./languages/jav";
@@ -45,6 +46,7 @@ export const languageReplacements = {
 	fas: fas,
 	fra: fra,
 	grc: grc,
+	gle: gle,
 	hun: hun,
 	hye: hye,
 	jav: jav,
