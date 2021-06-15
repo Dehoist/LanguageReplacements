@@ -1,0 +1,16 @@
+import { Language } from "..";
+
+/**
+ * German / Deutsch
+ */
+export const deu: Language = {
+	ISO6393: "deu",
+	type: "list",
+	list: {
+		uses: ["lat"],
+		replacements: [
+			["ß", "ss"],
+			["ẞ", "Ss"]
+		]
+	}
+};
