@@ -7,6 +7,7 @@ export declare const languageReplacements: {
     ell: Language;
     fas: Language;
     fra: Language;
+    gle: Language;
     grc: Language;
     hun: Language;
     hye: Language;

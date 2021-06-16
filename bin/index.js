@@ -9,6 +9,7 @@ const div_1 = require("./languages/div");
 const ell_1 = require("./languages/ell");
 const fas_1 = require("./languages/fas");
 const fra_1 = require("./languages/fra");
+const gle_1 = require("./languages/gle");
 const grc_1 = require("./languages/grc");
 const hun_1 = require("./languages/hun");
 const hye_1 = require("./languages/hye");
@@ -46,6 +47,7 @@ exports.languageReplacements = {
     ell: ell_1.ell,
     fas: fas_1.fas,
     fra: fra_1.fra,
+    gle: gle_1.gle,
     grc: grc_1.grc,
     hun: hun_1.hun,
     hye: hye_1.hye,

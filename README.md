@@ -16,6 +16,7 @@ This list is used in [Dehoist][1] to romanize usernames.
 * ell • Modern Greek (1453-)
 * fas • Persian
 * fra • French
+* gle • Irish
 * grc • Ancient Greek (to 1453)
 * hun • Hungarian
 * hye • Armenian
