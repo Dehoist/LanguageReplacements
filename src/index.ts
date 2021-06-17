@@ -77,13 +77,16 @@ export const languageReplacements = {
 };
 
 export type ISO6393 = string;
-export type supportedISO6393s = keyof typeof languageReplacements;
+export type SupportedISO6393s = keyof typeof languageReplacements;
+export const supportedISO6393s = Object.keys(
+	languageReplacements
+) as SupportedISO6393s[];
 export interface Language {
 	ISO6393: ISO6393;
 	type: "list" | "module";
 	list?: {
-		uses?: supportedISO6393s[];
-		conflictsWith?: supportedISO6393s[];
+		uses?: SupportedISO6393s[];
+		conflictsWith?: SupportedISO6393s[];
 		replacements?: [string, string][];
 	};
 	module?: {
