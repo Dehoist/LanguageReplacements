@@ -38,13 +38,14 @@ export declare const languageReplacements: {
     vie: Language;
 };
 export declare type ISO6393 = string;
-export declare type supportedISO6393s = keyof typeof languageReplacements;
+export declare type SupportedISO6393s = keyof typeof languageReplacements;
+export declare const supportedISO6393s: ("ara" | "ces" | "dan" | "deu" | "div" | "ell" | "fas" | "fra" | "gle" | "grc" | "hun" | "hye" | "jav" | "jpn" | "kat" | "kor" | "lat" | "lav" | "lit" | "mkd" | "nld" | "nno" | "nob" | "nor" | "pol" | "por" | "pus" | "ron" | "rus" | "slk" | "spa" | "srp" | "swe" | "tur" | "ukr" | "urd" | "vie")[];
 export interface Language {
     ISO6393: ISO6393;
     type: "list" | "module";
     list?: {
-        uses?: supportedISO6393s[];
-        conflictsWith?: supportedISO6393s[];
+        uses?: SupportedISO6393s[];
+        conflictsWith?: SupportedISO6393s[];
         replacements?: [string, string][];
     };
     module?: {

@@ -1,4 +1,4 @@
-import { languageReplacements, supportedISO6393s } from "..";
+import { SupportedISO6393s, languageReplacements } from "..";
 
 import { readdirSync } from "fs";
 import { red } from "chalk";
@@ -12,7 +12,7 @@ async function validateLanguages() {
 					const ISO = v.list.conflictsWith[i];
 					if (
 						!languageReplacements[ISO].list?.conflictsWith?.includes(
-							k as supportedISO6393s
+							k as SupportedISO6393s
 						)
 					)
 						errors.push(`${k} is missing in ${ISO}'s conflictsWith!`);
@@ -29,7 +29,7 @@ async function validateLanguages() {
 								if (
 									replacement[0] === replacement2[0] &&
 									replacement[1] !== replacement2[1] &&
-									!v.list.conflictsWith?.includes(k2 as supportedISO6393s)
+									!v.list.conflictsWith?.includes(k2 as SupportedISO6393s)
 								)
 									conflictingKeys.push(replacement[0]);
 							}
@@ -37,7 +37,7 @@ async function validateLanguages() {
 						if (conflictingKeys.length) {
 							const conflictingLangs = [k2];
 							for (const [k3, v3] of Object.entries(languageReplacements)) {
-								if (v3.list?.uses?.includes(k2 as supportedISO6393s))
+								if (v3.list?.uses?.includes(k2 as SupportedISO6393s))
 									conflictingLangs.push(k3);
 							}
 							errors.push(

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.languageReplacements = void 0;
+exports.supportedISO6393s = exports.languageReplacements = void 0;
 const ara_1 = require("./languages/ara");
 const ces_1 = require("./languages/ces");
 const dan_1 = require("./languages/dan");
@@ -77,4 +77,5 @@ exports.languageReplacements = {
     urd: urd_1.urd,
     vie: vie_1.vie
 };
+exports.supportedISO6393s = Object.keys(exports.languageReplacements);
 //# sourceMappingURL=index.js.map
