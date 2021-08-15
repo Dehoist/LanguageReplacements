@@ -1,3 +1,4 @@
+import { afr } from "./languages/afr";
 import { ara } from "./languages/ara";
 import { ces } from "./languages/ces";
 import { dan } from "./languages/dan";
@@ -37,6 +38,7 @@ import { urd } from "./languages/urd";
 import { vie } from "./languages/vie";
 
 export const languageReplacements = {
+	afr: afr,
 	ara: ara,
 	ces: ces,
 	dan: dan,

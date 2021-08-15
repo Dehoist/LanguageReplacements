@@ -8,6 +8,7 @@ This list is used in [Dehoist][1] to romanize usernames.
 
 ## Currently supported languages
 
+* afr • Afrikaans
 * ara • Arabic
 * ces • Czech
 * dan • Danish
