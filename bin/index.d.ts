@@ -1,4 +1,5 @@
 export declare const languageReplacements: {
+    afr: Language;
     ara: Language;
     ces: Language;
     dan: Language;
@@ -39,7 +40,7 @@ export declare const languageReplacements: {
 };
 export declare type ISO6393 = string;
 export declare type SupportedISO6393s = keyof typeof languageReplacements;
-export declare const supportedISO6393s: ("ara" | "ces" | "dan" | "deu" | "div" | "ell" | "fas" | "fra" | "gle" | "grc" | "hun" | "hye" | "jav" | "jpn" | "kat" | "kor" | "lat" | "lav" | "lit" | "mkd" | "nld" | "nno" | "nob" | "nor" | "pol" | "por" | "pus" | "ron" | "rus" | "slk" | "spa" | "srp" | "swe" | "tur" | "ukr" | "urd" | "vie")[];
+export declare const supportedISO6393s: ("afr" | "ara" | "ces" | "dan" | "deu" | "div" | "ell" | "fas" | "fra" | "gle" | "grc" | "hun" | "hye" | "jav" | "jpn" | "kat" | "kor" | "lat" | "lav" | "lit" | "mkd" | "nld" | "nno" | "nob" | "nor" | "pol" | "por" | "pus" | "ron" | "rus" | "slk" | "spa" | "srp" | "swe" | "tur" | "ukr" | "urd" | "vie")[];
 export interface Language {
     ISO6393: ISO6393;
     type: "list" | "module";
