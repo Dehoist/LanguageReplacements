@@ -1,6 +1,7 @@
 import { afr } from "./languages/afr";
 import { ara } from "./languages/ara";
 import { ces } from "./languages/ces";
+import { cmn } from "./languages/cmn";
 import { dan } from "./languages/dan";
 import { deu } from "./languages/deu";
 import { div } from "./languages/div";
@@ -41,6 +42,7 @@ export const languageReplacements = {
 	afr: afr,
 	ara: ara,
 	ces: ces,
+	cmn: cmn,
 	dan: dan,
 	deu: deu,
 	div: div,
@@ -93,6 +95,7 @@ export interface Language {
 	};
 	module?: {
 		name: string;
-		function?: string;
+		function?: string | false;
+		arguments?: any;
 	};
 }

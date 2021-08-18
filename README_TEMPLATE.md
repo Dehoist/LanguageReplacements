@@ -87,7 +87,9 @@ Afterwards, you can replace `LANG / LANG` with the name of your language in Engl
 
 Then you just need to set up the `module` object by setting the `name` property to the name of the [NPM][3] package that romanizes your language (i.e. replace `MODULE`).
 
-If the default exported function is not the romanize function, you need to add a `function` property. In this property, you just add the function name of the romanizer as a string. _Note: You can see examples of that in Japanese (jpn)._
+If the default exported function is not the romanize function, you need to add a `function` property. In this property, you just add the function name of the romanizer as a string. _Note: You can see an example of that in Japanese (jpn)._
+
+If the function requires an argument, you need to add a `argument` property. In this property, you just add the arguments needed. _Note: You can see an example of that in Chinese (cmn)._
 
 Please note that the romanize function in the module expects to have the first argument as the string to be romanized and has no other settings that are required.
 
