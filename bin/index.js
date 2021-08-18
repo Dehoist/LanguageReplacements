@@ -4,6 +4,7 @@ exports.supportedISO6393s = exports.languageReplacements = void 0;
 const afr_1 = require("./languages/afr");
 const ara_1 = require("./languages/ara");
 const ces_1 = require("./languages/ces");
+const cmn_1 = require("./languages/cmn");
 const dan_1 = require("./languages/dan");
 const deu_1 = require("./languages/deu");
 const div_1 = require("./languages/div");
@@ -43,6 +44,7 @@ exports.languageReplacements = {
     afr: afr_1.afr,
     ara: ara_1.ara,
     ces: ces_1.ces,
+    cmn: cmn_1.cmn,
     dan: dan_1.dan,
     deu: deu_1.deu,
     div: div_1.div,
