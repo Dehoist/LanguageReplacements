@@ -1,11 +1,11 @@
 {
 	"name": "@dehoist/languagereplacements",
 	"description": "Language Replacements",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"main": "bin/index.js",
 	"repository": "git://github.com/Dehoist/LanguageReplacements.git",
 	"author": "Bas950 <me@bas950.com>",
-	"license": "MPL-2.0",
+	"license": "CC-BY-NC-4.0",
 	"scripts": {
 		"build": "rimraf bin && tsc --skipLibCheck && npm run validate && npm run genReadMe",
 		"genReadMe": "cd bin/util && node generateREADME.js",
