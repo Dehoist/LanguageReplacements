@@ -33,6 +33,7 @@ import { slk } from "./languages/slk";
 import { spa } from "./languages/spa";
 import { srp } from "./languages/srp";
 import { swe } from "./languages/swe";
+import { tha } from "./languages/tha";
 import { tur } from "./languages/tur";
 import { ukr } from "./languages/ukr";
 import { urd } from "./languages/urd";
@@ -74,6 +75,7 @@ export const languageReplacements = {
 	spa: spa,
 	srp: srp,
 	swe: swe,
+	tha: tha,
 	tur: tur,
 	ukr: ukr,
 	urd: urd,
