@@ -26,6 +26,7 @@ function validateLanguages() {
                     }
                 }
                 if ((_f = (_e = v.list) === null || _e === void 0 ? void 0 : _e.replacements) === null || _f === void 0 ? void 0 : _f.length) {
+                    errors = errors.concat(sortReplacements(v.list.replacements, v.ISO6393));
                     for (let i = 0; i < v.list.replacements.length; i++) {
                         const replacement = v.list.replacements[i];
                         for (const [k2, v2] of Object.entries(__1.languageReplacements)) {
@@ -62,4 +63,39 @@ function validateLanguages() {
     });
 }
 validateLanguages();
+function sortReplacements(list, name) {
+    const oldList = [...list], newList = list.sort().sort((a, b) => b[0].length - a[0].length), newErrors = [];
+    if (arraysEqual(newList, oldList))
+        return [];
+    fs_1.writeFileSync(`../../${name}.json`, JSON.stringify(newList, null, 2));
+    newErrors.push(`Found better sorting for ${name}, please check it out in the main directory! (${name}.json)`);
+    for (let index = 0; index < newList.length; index++) {
+        const element = newList[index];
+        for (let o = 0; o < index; o++) {
+            const elem = newList[o];
+            if (element[0].includes(elem[0])) {
+                console.log(element, index, elem, o);
+                newErrors.push(`Manual check: ${element} (index: ${index}) conflicts with ${elem} (index: ${o}) (${name}.json)`);
+            }
+        }
+    }
+    return newErrors;
+}
+function arraysEqual(a, b) {
+    if (a === b)
+        return true;
+    if (a == null || b == null)
+        return false;
+    if (a.length !== b.length)
+        return false;
+    // If you don't care about the order of the elements inside
+    // the array, you should sort both arrays here.
+    // Please note that calling sort on an array will modify that array.
+    // you might want to clone your array first.
+    for (var i = 0; i < a.length; ++i) {
+        if (a[i] !== b[i])
+            return false;
+    }
+    return true;
+}
 //# sourceMappingURL=validateLanguages.js.map

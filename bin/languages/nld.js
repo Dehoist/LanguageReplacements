@@ -10,8 +10,8 @@ exports.nld = {
     list: {
         uses: ["lat"],
         replacements: [
-            ["ĳ", "ij"],
-            ["Ĳ", "IJ"]
+            ["Ĳ", "IJ"],
+            ["ĳ", "ij"]
         ]
     }
 };

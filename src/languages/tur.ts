@@ -9,12 +9,12 @@ export const tur: Language = {
 	list: {
 		uses: ["lat"],
 		replacements: [
-			["ş", "s"],
-			["Ş", "S"],
-			["ğ", "g"],
 			["Ğ", "G"],
+			["ğ", "g"],
+			["İ", "I"],
 			["ı", "i"],
-			["İ", "I"]
+			["Ş", "S"],
+			["ş", "s"]
 		]
 	}
 };

@@ -1,10 +1,10 @@
 import { SupportedISO6393s, languageReplacements } from "..";
+import { readdirSync, writeFileSync } from "fs";
 
-import { readdirSync } from "fs";
 import { red } from "chalk";
 
 async function validateLanguages() {
-	let errors = [];
+	let errors: string[] = [];
 	for (const [k, v] of Object.entries(languageReplacements)) {
 		if (v.type === "list") {
 			if (v.list?.conflictsWith?.length) {
@@ -19,6 +19,9 @@ async function validateLanguages() {
 				}
 			}
 			if (v.list?.replacements?.length) {
+				errors = errors.concat(
+					sortReplacements(v.list.replacements, v.ISO6393)
+				);
 				for (let i = 0; i < v.list.replacements.length; i++) {
 					const replacement = v.list.replacements[i];
 					for (const [k2, v2] of Object.entries(languageReplacements)) {
@@ -66,3 +69,38 @@ async function validateLanguages() {
 	if (errors.length) console.log(red(errors.join("\n")));
 }
 validateLanguages();
+
+function sortReplacements(list: [string, string][], name: string): string[] {
+	const oldList = [...list],
+		newList = list.sort().sort((a, b) => b[0].length - a[0].length),
+		newErrors: string[] = [];
+	if (arraysEqual(newList, oldList)) return [];
+	writeFileSync(`../../${name}.json`, JSON.stringify(newList, null, 2));
+	newErrors.push(
+		`Found better sorting for ${name}, please check it out in the main directory! (${name}.json)`
+	);
+	for (let index = 0; index < newList.length; index++) {
+		const element = newList[index];
+		for (let o = 0; o < index; o++) {
+			const elem = newList[o];
+			if (element[0].includes(elem[0])) {
+				console.log(element, index, elem, o);
+				newErrors.push(
+					`Manual check: ${element} (index: ${index}) conflicts with ${elem} (index: ${o}) (${name}.json)`
+				);
+			}
+		}
+	}
+	return newErrors;
+}
+
+function arraysEqual(a: any[], b: any[]) {
+	if (a === b) return true;
+	if (a == null || b == null) return false;
+	if (a.length !== b.length) return false;
+
+	for (var i = 0; i < a.length; ++i) {
+		if (a[i] !== b[i]) return false;
+	}
+	return true;
+}

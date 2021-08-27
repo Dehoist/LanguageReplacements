@@ -9,11 +9,11 @@ export const fas: Language = {
 	list: {
 		uses: ["ara"],
 		replacements: [
+			["پ", "p"],
 			["چ", "ch"],
+			["ژ", "zh"],
 			["ک", "k"],
 			["گ", "g"],
-			["پ", "p"],
-			["ژ", "zh"],
 			["ی", "y"],
 			["۰", "0"],
 			["۱", "1"],

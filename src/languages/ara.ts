@@ -8,6 +8,8 @@ export const ara: Language = {
 	type: "list",
 	list: {
 		replacements: [
+			["َ‎", "a"],
+			["ِ‎", "i"],
 			["ء", "e"],
 			["آ", "a"],
 			["أ", "a"],
@@ -45,9 +47,7 @@ export const ara: Language = {
 			["و", "w"],
 			["ى", "a"],
 			["ي", "y"],
-			["َ‎", "a"],
 			["ُ", "u"],
-			["ِ‎", "i"],
 			["٠", "0"],
 			["١", "1"],
 			["٢", "2"],
