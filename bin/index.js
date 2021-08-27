@@ -36,6 +36,7 @@ const slk_1 = require("./languages/slk");
 const spa_1 = require("./languages/spa");
 const srp_1 = require("./languages/srp");
 const swe_1 = require("./languages/swe");
+const tha_1 = require("./languages/tha");
 const tur_1 = require("./languages/tur");
 const ukr_1 = require("./languages/ukr");
 const urd_1 = require("./languages/urd");
@@ -76,6 +77,7 @@ exports.languageReplacements = {
     spa: spa_1.spa,
     srp: srp_1.srp,
     swe: swe_1.swe,
+    tha: tha_1.tha,
     tur: tur_1.tur,
     ukr: ukr_1.ukr,
     urd: urd_1.urd,

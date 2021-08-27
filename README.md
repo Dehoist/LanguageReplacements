@@ -43,6 +43,7 @@ This list is used in [Dehoist][1] to romanize usernames.
 * spa • Castilian; Spanish
 * srp • Serbian
 * swe • Swedish
+* tha • Thai
 * tur • Turkish
 * ukr • Ukrainian
 * urd • Urdu
