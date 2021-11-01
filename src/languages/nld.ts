@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const nld: Language = {
 	ISO6393: "nld",
+	name: "Nederlands",
 	type: "list",
 	list: {
 		uses: ["lat"],

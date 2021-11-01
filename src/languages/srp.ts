@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const srp: Language = {
 	ISO6393: "srp",
+	name: "српски",
 	type: "list",
 	list: {
 		uses: ["rus"],

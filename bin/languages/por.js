@@ -6,6 +6,7 @@ exports.por = void 0;
  */
 exports.por = {
     ISO6393: "por",
+    name: "Português",
     type: "list",
     list: {
         uses: ["lat"]

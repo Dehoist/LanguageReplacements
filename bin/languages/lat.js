@@ -6,6 +6,7 @@ exports.lat = void 0;
  */
 exports.lat = {
     ISO6393: "lat",
+    name: "Latīnum",
     type: "list",
     list: {
         conflictsWith: ["dan", "hun", "nno", "nob", "nor", "slk", "swe"],

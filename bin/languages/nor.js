@@ -6,6 +6,7 @@ exports.nor = void 0;
  */
 exports.nor = {
     ISO6393: "nor",
+    name: "Norsk",
     type: "list",
     list: {
         conflictsWith: ["lat", "hun", "swe", "dan"],

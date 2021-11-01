@@ -6,6 +6,7 @@ exports.jpn = void 0;
  */
 exports.jpn = {
     ISO6393: "jpn",
+    name: "日本語",
     type: "module",
     module: {
         name: "@lazy-cjk/japanese",

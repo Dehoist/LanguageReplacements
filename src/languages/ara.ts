@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const ara: Language = {
 	ISO6393: "ara",
+	name: "اَلْعَرَبِيَّةُ",
 	type: "list",
 	list: {
 		replacements: [

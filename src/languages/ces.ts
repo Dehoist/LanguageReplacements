@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const ces: Language = {
 	ISO6393: "ces",
+	name: "Čeština",
 	type: "list",
 	list: {
 		uses: ["lat"],

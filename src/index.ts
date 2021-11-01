@@ -89,6 +89,7 @@ export const supportedISO6393s = Object.keys(
 ) as SupportedISO6393s[];
 export interface Language {
 	ISO6393: ISO6393;
+	name: string;
 	type: "list" | "module";
 	list?: {
 		uses?: SupportedISO6393s[];

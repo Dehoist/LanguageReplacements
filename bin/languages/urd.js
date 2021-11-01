@@ -6,6 +6,7 @@ exports.urd = void 0;
  */
 exports.urd = {
     ISO6393: "urd",
+    name: "اُردُو",
     type: "list",
     list: {
         uses: ["ara", "fas"],

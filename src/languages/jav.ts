@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const jav: Language = {
 	ISO6393: "jav",
+	name: "Jawa",
 	type: "list",
 	list: {
 		uses: ["lat"]

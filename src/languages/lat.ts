@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const lat: Language = {
 	ISO6393: "lat",
+	name: "Latīnum",
 	type: "list",
 	list: {
 		conflictsWith: ["dan", "hun", "nno", "nob", "nor", "slk", "swe"],

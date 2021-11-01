@@ -6,6 +6,7 @@ exports.pol = void 0;
  */
 exports.pol = {
     ISO6393: "pol",
+    name: "Polski",
     type: "list",
     list: {
         uses: ["lat"],

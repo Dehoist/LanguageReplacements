@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const kat: Language = {
 	ISO6393: "kat",
+	name: "ქართული",
 	type: "list",
 	list: {
 		replacements: [

@@ -6,6 +6,7 @@ exports.kat = void 0;
  */
 exports.kat = {
     ISO6393: "kat",
+    name: "ქართული",
     type: "list",
     list: {
         replacements: [

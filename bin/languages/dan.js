@@ -6,6 +6,7 @@ exports.dan = void 0;
  */
 exports.dan = {
     ISO6393: "dan",
+    name: "Dansk",
     type: "list",
     list: {
         conflictsWith: ["lat", "hun", "nno", "nob", "nor", "swe"],

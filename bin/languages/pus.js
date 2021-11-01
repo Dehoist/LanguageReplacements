@@ -6,6 +6,7 @@ exports.pus = void 0;
  */
 exports.pus = {
     ISO6393: "pus",
+    name: "پښتو",
     type: "list",
     list: {
         uses: ["ara"],

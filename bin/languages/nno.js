@@ -6,6 +6,7 @@ exports.nno = void 0;
  */
 exports.nno = {
     ISO6393: "nno",
+    name: "Norsk (Nynorsk)",
     type: "list",
     list: {
         uses: ["nor"],

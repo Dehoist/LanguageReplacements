@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const cmn: Language = {
 	ISO6393: "cmn",
+	name: "官話",
 	type: "module",
 	module: {
 		name: "pinyin",

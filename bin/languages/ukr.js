@@ -6,6 +6,7 @@ exports.ukr = void 0;
  */
 exports.ukr = {
     ISO6393: "ukr",
+    name: "Українська",
     type: "list",
     list: {
         uses: ["rus"],

@@ -6,6 +6,7 @@ exports.nld = void 0;
  */
 exports.nld = {
     ISO6393: "nld",
+    name: "Nederlands",
     type: "list",
     list: {
         uses: ["lat"],

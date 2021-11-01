@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const mkd: Language = {
 	ISO6393: "mkd",
+	name: "македонски",
 	type: "list",
 	list: {
 		uses: ["rus"],

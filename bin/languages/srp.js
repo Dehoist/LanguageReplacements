@@ -6,6 +6,7 @@ exports.srp = void 0;
  */
 exports.srp = {
     ISO6393: "srp",
+    name: "српски",
     type: "list",
     list: {
         uses: ["rus"],

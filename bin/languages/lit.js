@@ -6,6 +6,7 @@ exports.lit = void 0;
  */
 exports.lit = {
     ISO6393: "lit",
+    name: "Lietuvių",
     type: "list",
     list: {
         uses: ["lat"],

@@ -6,6 +6,7 @@ exports.spa = void 0;
  */
 exports.spa = {
     ISO6393: "spa",
+    name: "Español",
     type: "list",
     list: {
         uses: ["lat"]

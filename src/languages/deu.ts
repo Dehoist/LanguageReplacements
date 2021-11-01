@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const deu: Language = {
 	ISO6393: "deu",
+	name: "Deutsch",
 	type: "list",
 	list: {
 		uses: ["lat"],

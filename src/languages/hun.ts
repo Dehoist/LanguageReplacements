@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const hun: Language = {
 	ISO6393: "hun",
+	name: "Magyar",
 	type: "list",
 	list: {
 		conflictsWith: ["dan", "lat", "nno", "nob", "nor"],

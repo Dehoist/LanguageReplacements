@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const tur: Language = {
 	ISO6393: "tur",
+	name: "Türkçe",
 	type: "list",
 	list: {
 		uses: ["lat"],

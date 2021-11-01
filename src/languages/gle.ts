@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const gle: Language = {
 	ISO6393: "gle",
+	name: "Gaeilge",
 	type: "list",
 	list: {
 		uses: ["lat"],

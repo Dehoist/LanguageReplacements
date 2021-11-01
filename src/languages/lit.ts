@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const lit: Language = {
 	ISO6393: "lit",
+	name: "Lietuvių",
 	type: "list",
 	list: {
 		uses: ["lat"],

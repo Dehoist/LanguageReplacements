@@ -6,6 +6,7 @@ exports.ces = void 0;
  */
 exports.ces = {
     ISO6393: "ces",
+    name: "Čeština",
     type: "list",
     list: {
         uses: ["lat"],

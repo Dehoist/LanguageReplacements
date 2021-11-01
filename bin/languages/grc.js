@@ -6,6 +6,7 @@ exports.grc = void 0;
  */
 exports.grc = {
     ISO6393: "grc",
+    name: "Αρχαία ελληνικά",
     type: "list",
     list: {
         replacements: [

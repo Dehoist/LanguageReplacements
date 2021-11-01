@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const hye: Language = {
 	ISO6393: "hye",
+	name: "Հայերեն",
 	type: "list",
 	list: {
 		replacements: [

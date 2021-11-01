@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const ell: Language = {
 	ISO6393: "ell",
+	name: "Νέα Ελληνικά",
 	type: "list",
 	list: {
 		uses: ["grc"]

@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const slk: Language = {
 	ISO6393: "slk",
+	name: "slovenčina",
 	type: "list",
 	list: {
 		conflictsWith: ["lat"],

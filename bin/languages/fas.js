@@ -6,6 +6,7 @@ exports.fas = void 0;
  */
 exports.fas = {
     ISO6393: "fas",
+    name: "فارسی",
     type: "list",
     list: {
         uses: ["ara"],

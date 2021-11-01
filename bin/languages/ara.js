@@ -6,6 +6,7 @@ exports.ara = void 0;
  */
 exports.ara = {
     ISO6393: "ara",
+    name: "اَلْعَرَبِيَّةُ",
     type: "list",
     list: {
         replacements: [

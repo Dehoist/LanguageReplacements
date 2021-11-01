@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const urd: Language = {
 	ISO6393: "urd",
+	name: "اُردُو",
 	type: "list",
 	list: {
 		uses: ["ara", "fas"],

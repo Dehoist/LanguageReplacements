@@ -6,6 +6,7 @@ exports.tha = void 0;
  */
 exports.tha = {
     ISO6393: "tha",
+    name: "ภาษาไทย",
     type: "list",
     list: {
         replacements: [

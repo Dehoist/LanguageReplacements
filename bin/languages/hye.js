@@ -6,6 +6,7 @@ exports.hye = void 0;
  */
 exports.hye = {
     ISO6393: "hye",
+    name: "Հայերեն",
     type: "list",
     list: {
         replacements: [

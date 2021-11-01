@@ -6,6 +6,7 @@ exports.jav = void 0;
  */
 exports.jav = {
     ISO6393: "jav",
+    name: "Jawa",
     type: "list",
     list: {
         uses: ["lat"]

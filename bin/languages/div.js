@@ -6,6 +6,7 @@ exports.div = void 0;
  */
 exports.div = {
     ISO6393: "div",
+    name: "ދިވެހި",
     type: "list",
     list: {
         replacements: [

@@ -6,6 +6,7 @@ exports.hun = void 0;
  */
 exports.hun = {
     ISO6393: "hun",
+    name: "Magyar",
     type: "list",
     list: {
         conflictsWith: ["dan", "lat", "nno", "nob", "nor"],

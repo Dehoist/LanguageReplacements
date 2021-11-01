@@ -1,1 +1,1 @@
-{"version":3,"file":"jpn.js","sourceRoot":"","sources":["../../src/languages/jpn.ts"],"names":[],"mappings":";;;AAEA;;GAEG;AACU,QAAA,GAAG,GAAa;IAC5B,OAAO,EAAE,KAAK;IACd,IAAI,EAAE,QAAQ;IACd,MAAM,EAAE;QACP,IAAI,EAAE,oBAAoB;QAC1B,QAAQ,EAAE,UAAU;KACpB;CACD,CAAC"}
+{"version":3,"file":"jpn.js","sourceRoot":"","sources":["../../src/languages/jpn.ts"],"names":[],"mappings":";;;AAEA;;GAEG;AACU,QAAA,GAAG,GAAa;IAC5B,OAAO,EAAE,KAAK;IACd,IAAI,EAAE,KAAK;IACX,IAAI,EAAE,QAAQ;IACd,MAAM,EAAE;QACP,IAAI,EAAE,oBAAoB;QAC1B,QAAQ,EAAE,UAAU;KACpB;CACD,CAAC"}

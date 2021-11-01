@@ -6,6 +6,7 @@ exports.cmn = void 0;
  */
 exports.cmn = {
     ISO6393: "cmn",
+    name: "官話",
     type: "module",
     module: {
         name: "pinyin",

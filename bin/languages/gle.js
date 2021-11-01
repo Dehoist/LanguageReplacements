@@ -6,6 +6,7 @@ exports.gle = void 0;
  */
 exports.gle = {
     ISO6393: "gle",
+    name: "Gaeilge",
     type: "list",
     list: {
         uses: ["lat"],

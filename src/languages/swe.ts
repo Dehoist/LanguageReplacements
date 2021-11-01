@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const swe: Language = {
 	ISO6393: "swe",
+	name: "Svenska",
 	type: "list",
 	list: {
 		conflictsWith: ["dan", "lat", "nno", "nob", "nor"],

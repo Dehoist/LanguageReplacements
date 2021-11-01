@@ -6,6 +6,7 @@ exports.slk = void 0;
  */
 exports.slk = {
     ISO6393: "slk",
+    name: "slovenčina",
     type: "list",
     list: {
         conflictsWith: ["lat"],

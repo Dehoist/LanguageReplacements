@@ -6,6 +6,7 @@ exports.mkd = void 0;
  */
 exports.mkd = {
     ISO6393: "mkd",
+    name: "македонски",
     type: "list",
     list: {
         uses: ["rus"],

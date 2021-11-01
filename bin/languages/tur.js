@@ -6,6 +6,7 @@ exports.tur = void 0;
  */
 exports.tur = {
     ISO6393: "tur",
+    name: "Türkçe",
     type: "list",
     list: {
         uses: ["lat"],

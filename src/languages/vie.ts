@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const vie: Language = {
 	ISO6393: "vie",
+	name: "Tiếng Việt",
 	type: "list",
 	list: {
 		uses: ["lat"],

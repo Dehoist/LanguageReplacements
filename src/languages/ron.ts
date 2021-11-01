@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const ron: Language = {
 	ISO6393: "ron",
+	name: "Română",
 	type: "list",
 	list: {
 		replacements: [

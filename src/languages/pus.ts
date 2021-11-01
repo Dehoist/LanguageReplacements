@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const pus: Language = {
 	ISO6393: "pus",
+	name: "پښتو",
 	type: "list",
 	list: {
 		uses: ["ara"],

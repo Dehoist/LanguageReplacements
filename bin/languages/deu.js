@@ -6,6 +6,7 @@ exports.deu = void 0;
  */
 exports.deu = {
     ISO6393: "deu",
+    name: "Deutsch",
     type: "list",
     list: {
         uses: ["lat"],

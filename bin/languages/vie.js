@@ -6,6 +6,7 @@ exports.vie = void 0;
  */
 exports.vie = {
     ISO6393: "vie",
+    name: "Tiếng Việt",
     type: "list",
     list: {
         uses: ["lat"],

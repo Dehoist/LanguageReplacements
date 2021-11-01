@@ -6,6 +6,7 @@ exports.ell = void 0;
  */
 exports.ell = {
     ISO6393: "ell",
+    name: "Νέα Ελληνικά",
     type: "list",
     list: {
         uses: ["grc"]

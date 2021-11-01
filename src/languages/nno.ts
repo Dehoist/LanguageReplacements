@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const nno: Language = {
 	ISO6393: "nno",
+	name: "Norsk (Nynorsk)",
 	type: "list",
 	list: {
 		uses: ["nor"],

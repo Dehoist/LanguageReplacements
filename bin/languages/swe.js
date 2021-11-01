@@ -6,6 +6,7 @@ exports.swe = void 0;
  */
 exports.swe = {
     ISO6393: "swe",
+    name: "Svenska",
     type: "list",
     list: {
         conflictsWith: ["dan", "lat", "nno", "nob", "nor"],

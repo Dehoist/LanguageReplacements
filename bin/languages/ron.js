@@ -6,6 +6,7 @@ exports.ron = void 0;
  */
 exports.ron = {
     ISO6393: "ron",
+    name: "Română",
     type: "list",
     list: {
         replacements: [

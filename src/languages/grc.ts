@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const grc: Language = {
 	ISO6393: "grc",
+	name: "Αρχαία ελληνικά",
 	type: "list",
 	list: {
 		replacements: [

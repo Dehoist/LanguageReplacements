@@ -45,6 +45,7 @@ export declare type SupportedISO6393s = keyof typeof languageReplacements;
 export declare const supportedISO6393s: ("afr" | "ara" | "ces" | "cmn" | "dan" | "deu" | "div" | "ell" | "fas" | "fra" | "gle" | "grc" | "hun" | "hye" | "jav" | "jpn" | "kat" | "kor" | "lat" | "lav" | "lit" | "mkd" | "nld" | "nno" | "nob" | "nor" | "pol" | "por" | "pus" | "ron" | "rus" | "slk" | "spa" | "srp" | "swe" | "tha" | "tur" | "ukr" | "urd" | "vie")[];
 export interface Language {
     ISO6393: ISO6393;
+    name: string;
     type: "list" | "module";
     list?: {
         uses?: SupportedISO6393s[];

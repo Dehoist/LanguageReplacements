@@ -6,6 +6,7 @@ exports.afr = void 0;
  */
 exports.afr = {
     ISO6393: "afr",
+    name: "Afrikaans",
     type: "list",
     list: {
         uses: ["lat"]

@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const div: Language = {
 	ISO6393: "div",
+	name: "ދިވެހި",
 	type: "list",
 	list: {
 		replacements: [

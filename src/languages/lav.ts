@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const lav: Language = {
 	ISO6393: "lav",
+	name: "Latviešu",
 	type: "list",
 	list: {
 		replacements: [

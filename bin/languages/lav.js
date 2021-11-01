@@ -6,6 +6,7 @@ exports.lav = void 0;
  */
 exports.lav = {
     ISO6393: "lav",
+    name: "Latviešu",
     type: "list",
     list: {
         replacements: [

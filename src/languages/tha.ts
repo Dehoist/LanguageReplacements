@@ -5,6 +5,7 @@ import { Language } from "..";
  */
 export const tha: Language = {
 	ISO6393: "tha",
+	name: "ภาษาไทย",
 	type: "list",
 	list: {
 		replacements: [

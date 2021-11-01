@@ -6,6 +6,7 @@ exports.fra = void 0;
  */
 exports.fra = {
     ISO6393: "fra",
+    name: "Français",
     type: "list",
     list: {
         uses: ["lat"]

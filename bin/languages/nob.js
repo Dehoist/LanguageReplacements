@@ -6,6 +6,7 @@ exports.nob = void 0;
  */
 exports.nob = {
     ISO6393: "nob",
+    name: "Norsk (Bokmål)",
     type: "list",
     list: {
         uses: ["nor"],
